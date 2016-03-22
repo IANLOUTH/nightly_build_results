@@ -5,6 +5,9 @@ including device/generic/mini-emulator-x86_64/vendorsetup.sh
 including device/generic/mini-emulator-x86/vendorsetup.sh
 including device/htc/flounder/vendorsetup.sh
 including device/huawei/angler/vendorsetup.sh
+including device/lge/d800/vendorsetup.sh
+including device/lge/d801/vendorsetup.sh
+including device/lge/d803/vendorsetup.sh
 including device/lge/hammerhead/vendorsetup.sh
 including device/lge/ls980/vendorsetup.sh
 including device/lge/vs980/vendorsetup.sh
