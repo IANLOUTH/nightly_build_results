@@ -33,19 +33,8 @@ Set cache size limit to 20.0 Gbytes
 You're building on Linux
 
 including vendor/exodus/vendorsetup.sh
-build/core/product_config.mk:234: *** Can not locate config makefile for product "exodus_find7".  Stop.
-From ssh://github.com/TeamExodus/device_oppo_find7
- * [new branch]      EXODUS-6.0 -> roomservice/EXODUS-6.0
-
-Fetching project TeamExodus/device_oppo_find7
-Fetching project repo
-Your device can't be found in device sources..
-found the find7 device repo
-device_url: device_oppo_find7
-device_dir: device/oppo/find7
-github_url: TeamExodus/device_oppo_find7
-wrote the new roomservice manifest
-syncing the device config
+build/core/product_config.mk:239: *** _nic.PRODUCTS.[[device/oppo/find7/exodus.mk]]: "device/oppo/find7-common/find7.mk" does not exist.  Stop.
+WARNING: Trying to fetch a device that's already there
 Checking dependencies in device/oppo/find7.
 Traceback (most recent call last):
   File "build/tools/roomservice.py", line 320, in <module>
