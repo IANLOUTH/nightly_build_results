@@ -17,6 +17,7 @@ including device/oneplus/bacon/vendorsetup.sh
 including device/oneplus/oneplus2/vendorsetup.sh
 including device/oneplus/onyx/vendorsetup.sh
 including device/samsung/serrano3gxx/vendorsetup.sh
+including device/samsung/serranodsdd/vendorsetup.sh
 including device/samsung/serranoltexx/vendorsetup.sh
 including device/xiaomi/armani/vendorsetup.sh
 including device/xiaomi/cancro/vendorsetup.sh
@@ -704,12 +705,12 @@ Notice file: external/harfbuzz_ng/NOTICE -- /android/exodus-6.0/out/target/produ
 Notice file: frameworks/base/libs/hwui/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libhwui.so.txt
 Notice file: external/llvm/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libLLVM.so.txt
 Notice file: frameworks/compile/libbcc/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libbcc.so.txt
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/import_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d’: No such file or directory
-cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d: No such file or directory
-/bin/bash: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d: No such file or directory
 Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/export_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d’: No such file or directory
@@ -719,8 +720,8 @@ Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/produ
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.a.txt
 Notice file: external/freetype/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libft2.so.txt
 Notice file: external/skia/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libskia.so.txt
-cp: cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory: No such file or directory
-
+cp: cp: cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’cannot stat ‘/android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory
+: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d: No such file or directory
 Notice file: external/giflib/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libgif.a.txt
@@ -1325,20 +1326,20 @@ Export includes file: system/core/logcat/Android.mk -- /android/exodus-6.0/out/t
 Notice file: system/core/logcat/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/bin/logcat.txt
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/logd_intermediates/import_includes
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libsysutils_intermediates/import_includes
-touch /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp
 Export includes file: system/core/logd/Android.mk -- /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/logd_intermediates/export_includes
-echo '#ifndef 'ScriptParser_h > /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/logwrapper_intermediates/import_includes
-echo '#define 'ScriptParser_h >> /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
-cat /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp >> /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/logwrapper_intermediates/export_includes
-echo '#endif' >> /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Notice file: system/core/logwrapper/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/bin/logwrapper.txt
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/macloader_intermediates/import_includes
+touch /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp
 Export includes file: hardware/samsung/macloader/Android.mk -- /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/macloader_intermediates/export_includes
+echo '#ifndef 'ScriptParser_h > /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/make_ext4fs_intermediates/import_includes
+echo '#define 'ScriptParser_h >> /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/SHARED_LIBRARIES/libext4_utils_intermediates/import_includes
+cat /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp >> /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/make_ext4fs_intermediates/export_includes
+echo '#endif' >> /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/bin/make_ext4fs.txt
 Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/klte/obj/NOTICE_FILES/src//system/lib/libext4_utils.so.txt
 Import includes file: /android/exodus-6.0/out/target/product/klte/obj/EXECUTABLES/mdnsd_intermediates/import_includes
@@ -2142,9 +2143,9 @@ make: Leaving directory `/android/exodus-6.0'
 [0;31m#### make failed to build some targets (26 seconds) ####[0m
 
 
-real	0m25.710s
-user	0m20.768s
-sys	0m3.164s
+real	0m26.086s
+user	0m20.888s
+sys	0m3.272s
 build/envsetup.sh: line 571: notify-send: command not found
 Build failed
 /android/exodus-6.0/out/target/product/klte removed
