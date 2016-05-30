@@ -1,0 +1,1399 @@
+including device/generic/mini-emulator-arm64/vendorsetup.sh
+including device/generic/mini-emulator-armv7-a-neon/vendorsetup.sh
+including device/generic/mini-emulator-mips/vendorsetup.sh
+including device/generic/mini-emulator-x86_64/vendorsetup.sh
+including device/generic/mini-emulator-x86/vendorsetup.sh
+including device/htc/flounder/vendorsetup.sh
+including device/huawei/angler/vendorsetup.sh
+including device/lge/hammerhead/vendorsetup.sh
+including device/lge/ls980/vendorsetup.sh
+including device/lge/mako/vendorsetup.sh
+including device/moto/shamu/vendorsetup.sh
+including device/oneplus/bacon/vendorsetup.sh
+including device/oneplus/oneplus2/vendorsetup.sh
+including device/samsung/serranoltexx/vendorsetup.sh
+including device/xiaomi/cancro/vendorsetup.sh
+including vendor/exodus/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/exodus/bash_completion/git.bash
+including vendor/exodus/bash_completion/repo.bash
+checking for changelog
+Set cache size limit to 20.0 Gbytes
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  ExodusAndroid - 6.0.1                
+    by PrimeDirective && Team Exodus   
+
+You're building on Linux
+
+including vendor/exodus/vendorsetup.sh
+build/core/product_config.mk:234: *** Can not locate config makefile for product "exodus_serrano3gxx".  Stop.
+From ssh://github.com/TeamExodus/device_samsung_serrano3gxx
+ * [new branch]      EXODUS-6.0 -> roomservice/EXODUS-6.0
+
+Fetching project TeamExodus/device_samsung_serrano3gxx
+Your device can't be found in device sources..
+found the serrano3gxx device repo
+device_url: device_samsung_serrano3gxx
+device_dir: device/samsung/serrano3gxx
+github_url: TeamExodus/device_samsung_serrano3gxx
+wrote the new roomservice manifest
+syncing the device config
+Checking dependencies in device/samsung/serrano3gxx.
+Checking dependencies in device/qcom/common.
+Checking dependencies in device/samsung/qcom-common.
+Checking dependencies in hardware/samsung.
+Checking dependencies in device/samsung/msm8930-common.
+Checking dependencies in external/stlport.
+Checking dependencies in device/samsung/serrano-common.
+Checking dependencies in kernel/samsung/msm8930-common.
+Checking dependencies in vendor/samsung/serrano-common.
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+EXODUS_VERSION=6.0-20160530-NIGHTLY-serrano3gxx
+TARGET_PRODUCT=exodus_serrano3gxx
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.19.0-49-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=MOB30J
+OUT_DIR=/android/exodus-6.0/out
+SIGNING_KEY=releasekey
+============================================
+
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  ExodusAndroid - 6.0.1                
+    by PrimeDirective && Team Exodus   
+
+You're building on Linux
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+EXODUS_VERSION=6.0-20160530-NIGHTLY-serrano3gxx
+TARGET_PRODUCT=exodus_serrano3gxx
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.19.0-49-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=MOB30J
+OUT_DIR=/android/exodus-6.0/out
+SIGNING_KEY=releasekey
+============================================
+make: Entering directory `/android/exodus-6.0'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/copybit.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/copybit.h'
+build/core/copy_headers.mk:15: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/copybit_priv.h'
+build/core/copy_headers.mk:15: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/copybit_priv.h'
+find: `src': No such file or directory
+find: `../callinfo_provider/src': No such file or directory
+build/core/base_rules.mk:559: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/xbin/wget'
+external/busybox/Android.mk:166: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/xbin/wget'
+*** Overlay change detected, clean shared intermediate files...
+*** rm -rf /android/exodus-6.0/out/target/common/obj/APPS/framework-res_intermediates /android/exodus-6.0/out/target/common/obj/APPS/TeleService_intermediates /android/exodus-6.0/out/target/common/obj/APPS/SettingsProvider_intermediates
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/bin/rild'
+build/core/base_rules.mk:559: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/bin/rild'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/lib/libril.so'
+build/core/base_rules.mk:559: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/lib/libril.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/lib/libsecril-client.so'
+build/core/base_rules.mk:559: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/lib/libsecril-client.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/etc/permissions/android.software.live_wallpaper.xml'
+build/core/base_rules.mk:559: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/serrano3gxx/system/etc/permissions/android.software.live_wallpaper.xml'
+No private recovery resources for TARGET_DEVICE serrano3gxx
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//MsgTask.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//LocApiBase.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//LocAdapterBase.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//ContextBase.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//LocDualContext.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//LBSProxyBase.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//UlpProxyBase.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//gps_extended_c.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//gps_extended.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_core//loc_core_log.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//LocEngAdapter.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc_eng.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc_eng_xtra.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc_eng_ni.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc_eng_agps.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc_eng_msg.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libloc_eng//loc_eng_log.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//loc_log.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//loc_cfg.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//log_util.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//linked_list.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//msg_q.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//loc_target.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//loc_timer.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//platform_lib_includes.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//platform_lib_time.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//platform_lib_macros.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/gps.utils//loc_misc_utils.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libexpat/expat.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libexpat/expat_external.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/xf86drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/xf86drmMode.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/drm_fourcc.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/drm_mode.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/drm_sarea.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/i915_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/mach64_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/mga_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/nouveau_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/qxl_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/r128_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/savage_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/sis_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/tegra_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/via_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/vmwgfx_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/nouveau.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_bo.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_cs.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_surface.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_bo_gem.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_cs_gem.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_bo_int.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/radeon_cs_int.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/r600_pci_ids.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/rockchip_drm.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/rockchip_drmif.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/tegra.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libdrm/libkms.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/selinux/selinux.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/selinux/label.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/selinux/context.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/selinux/avc.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/selinux/android.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/parameter/ParameterMgrLoggerForward.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/parameter/ParameterMgrPlatformConnector.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/parameter/ParameterMgrFullConnector.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/parameter/SelectionCriterionTypeInterface.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/parameter/SelectionCriterionInterface.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/parameter/ParameterHandle.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c-private.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libsonivox/eas.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libsonivox/eas_types.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libsonivox/eas_reverb.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libsonivox/jet.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libsonivox/ARM_synth_constants_gnu.inc
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libwpa_client/wpa_ctrl.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libwpa_client/qca-vendor.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/media_resource_manager/MediaResourceArbitrator.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/media_resource_manager/OMX_adaptor.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-audio/audio_defs.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/gralloc_priv.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/copybit.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/copybit_priv.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/display_config.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/mdp_version.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/qdMetaData.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/IQService.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/qcom/display/IQClient.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Audio.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Component.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Core.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Image.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Index.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_IVCommon.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Other.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Types.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_Video.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/qc_omx_common.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/qc_omx_component.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/qc_omx_msg.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_CoreExt.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/OMX_IndexExt.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QCMediaDefs.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/mm-core/omxcore/QCMetaData.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/libril/ril_ex.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/sdk/softap/include/qsap_api.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/sdk/softap/include/qsap.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/dataservices/rmnetctl/librmnetctl.h
+Header: /android/exodus-6.0/out/target/product/serrano3gxx/obj/include/time-services/time_genoff.h
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/file_contexts.txt
+Export includes file: external/libcxx/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libc_intermediates/export_includes
+Export includes file: bionic/libm/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libm_intermediates/export_includes
+Export includes file: system/core/init/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libinit_intermediates/export_includes
+Export includes file: system/core/fs_mgr/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes
+Export includes file: system/extras/squashfs_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/export_includes
+Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes
+Export includes file: system/core/libcutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes
+Export includes file: system/core/base/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbase_intermediates/export_includes
+Export includes file: system/core/libutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes
+Export includes file: system/core/liblog/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_intermediates/export_includes
+Export includes file: external/libselinux/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+Export includes file: system/core/libmincrypt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmincrypt_intermediates/export_includes
+Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/blkid/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/uuid/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes
+Export includes file: external/libcxx/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes
+Export includes file: bionic/libdl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdl_intermediates/export_includes
+Export includes file: system/core/libsparse/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes
+Export includes file: external/zlib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libz_intermediates/export_includes
+Export includes file: external/libcxxabi/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes
+Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+Export includes file: bionic/libdl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libdl_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_common_intermediates/export_includes
+Export includes file: external/jemalloc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libjemalloc_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_bionic_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_bionic_ndk_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_cxa_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_dns_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_malloc_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_openbsd_ndk_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_pthread_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_thread_atexit_impl_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_bionic_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_bionic_ndk_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_cxa_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_dns_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_malloc_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_openbsd_ndk_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_pthread_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_thread_atexit_impl_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libjemalloc_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libm_intermediates/import_includes
+Export includes file: bionic/libm/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libm_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/import_includes
+Export includes file: external/libcxxabi/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc++abi_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libinit_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/import_includes
+Export includes file: system/core/libcutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes
+Export includes file: system/core/liblog/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcutils_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbase_intermediates/import_includes
+Export includes file: system/core/libbacktrace/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbacktrace_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/liblog_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_intermediates/import_includes
+Export includes file: external/pcre/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libpcre_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmincrypt_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdl_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsparse_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libz_intermediates/import_includes
+Export includes file: system/core/init/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/init_intermediates/export_includes
+Notice file: system/core/init/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/init.txt
+Notice file: system/core/init/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libinit.a.txt
+Notice file: system/core/logwrapper/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/liblogwrap.a.txt
+Notice file: system/core/libcutils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcutils.a.txt
+Notice file: system/core/libutils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libutils.a.txt
+Notice file: system/core/liblog/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/liblog.a.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libc.a.txt
+Notice file: external/libselinux/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libselinux.a.txt
+Notice file: system/core/libmincrypt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmincrypt.a.txt
+Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libext4_utils_static.a.txt
+Notice file: bionic/libdl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libdl.a.txt
+Notice file: external/zlib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libz.a.txt
+Notice file: external/libcxxabi/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libunwind_llvm.a.txt
+Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt-extras.a.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libc.so.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libc_common.a.txt
+Notice file: external/jemalloc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjemalloc.a.txt
+Notice file: bionic/libdl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libdl.so.txt
+Notice file: bionic/libm/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libm.so.txt
+Notice file: bionic/libm/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libm.a.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/property_contexts.txt
+Export includes file: system/core/adb/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libadbd_intermediates/export_includes
+Export includes file: system/core/base/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbase_intermediates/export_includes
+Export includes file: system/core/adb/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/adbd_intermediates/export_includes
+Notice file: system/core/adb/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/sbin/adbd.txt
+Notice file: system/core/adb/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libadbd.a.txt
+Export includes file: frameworks/native/services/batteryservice/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/export_includes
+Export includes file: frameworks/native/libs/binder/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbinder_intermediates/export_includes
+Export includes file: bootable/recovery/minui/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminui_intermediates/export_includes
+Export includes file: external/libpng/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libpng_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstdc++_intermediates/export_includes
+Export includes file: system/core/libsuspend/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsuspend_intermediates/export_includes
+Export includes file: device/samsung/qcom-common/libhealthd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libhealthd.msm_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbinder_intermediates/import_includes
+Export includes file: system/core/adf/libadf/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libadf_intermediates/export_includes
+Export includes file: external/libdrm/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdrm_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libadf_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdrm_intermediates/import_includes
+Export includes file: external/zlib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libz_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstdc++_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsuspend_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libhealthd.msm_intermediates/import_includes
+Export includes file: system/core/healthd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/healthd_intermediates/export_includes
+Notice file: bionic/libc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstdc++.a.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/seapp_contexts.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/selinux_version.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/sepolicy.txt
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//root/service_contexts.txt
+Export includes file: external/e2fsprogs/lib/uuid/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_uuid_intermediates/export_includes
+Export includes file: external/e2fsprogs/e2fsck/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_profile_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/quota/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_quota_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/et/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_com_err_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/e2p/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_e2p_intermediates/export_includes
+Generated: (/android/exodus-6.0/out/target/product/serrano3gxx/android-info.txt)
+Export includes file: external/fuse/lib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfuse_static_intermediates/export_includes
+Export includes file: external/ntfs-3g/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs-3g_static_intermediates/export_includes
+Export includes file: external/ntfs-3g/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs3g_fsck_static_intermediates/export_includes
+Export includes file: external/ntfs-3g/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs3g_mkfs_main_intermediates/export_includes
+Export includes file: external/ntfs-3g/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs3g_mount_static_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/ext2fs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2fs_intermediates/export_includes
+Export includes file: external/e2fsprogs/e2fsck/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libe2fsck_static_intermediates/export_includes
+Export includes file: external/e2fsprogs/misc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmke2fs_static_intermediates/export_includes
+Export includes file: external/e2fsprogs/misc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtune2fs_intermediates/export_includes
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_static_intermediates/export_includes
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_fsck_static_intermediates/export_includes
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_mkfs_static_intermediates/export_includes
+Export includes file: external/gptfdisk/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsgdisk_static_intermediates/export_includes
+Export includes file: external/exfat/libexfat/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_static_intermediates/export_includes
+Export includes file: external/exfat/fsck/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_fsck_static_intermediates/export_includes
+Export includes file: external/exfat/mkfs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_mkfs_static_intermediates/export_includes
+Export includes file: external/exfat/fuse/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_mount_static_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_uuid_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_profile_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_quota_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_com_err_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2_e2p_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfuse_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs-3g_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs3g_fsck_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs3g_mkfs_main_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libntfs3g_mount_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext2fs_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libe2fsck_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmke2fs_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtune2fs_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_fsck_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_mkfs_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsgdisk_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_fsck_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_mkfs_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libexfat_mount_static_intermediates/import_includes
+Export includes file: bootable/recovery/fstools/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/fstools_intermediates/export_includes
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libf2fs_static.a.txt
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libf2fs_fsck_static.a.txt
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libf2fs_mkfs_static.a.txt
+Notice file: external/gptfdisk/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libsgdisk_static.a.txt
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//recovery/root/etc/mkshrc.txt
+Export includes file: bootable/recovery/mtdutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmtdutils_intermediates/export_includes
+Export includes file: bootable/recovery/minadbd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminadbd_intermediates/export_includes
+Export includes file: external/libtar/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtar_intermediates/export_includes
+Export includes file: external/boringssl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmtdutils_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminadbd_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtar_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/import_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/RECOVERY_EXECUTABLES/bu_recovery_intermediates/export_includes
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//recovery/root/sbin/bu.txt
+Notice file: external/libtar/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libtar.a.txt
+Notice file: external/boringssl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcrypto_static.a.txt
+Export includes file: system/vold/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminivold_static_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmake_ext4fs_static_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminizip_static_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminiunz_static_intermediates/export_includes
+Export includes file: external/fsck_msdos/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfsck_msdos_intermediates/export_includes
+Export includes file: external/pigz/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminipigz_static_intermediates/export_includes
+Export includes file: external/pigz/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libzopfli_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libreboot_static_intermediates/export_includes
+Export includes file: system/core/sdcard/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsdcard_intermediates/export_includes
+Export includes file: bootable/recovery/minzip/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminzip_intermediates/export_includes
+Export includes file: external/toybox/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtoybox_driver_intermediates/export_includes
+Export includes file: external/mksh/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmksh_static_intermediates/export_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfusesideload_intermediates/export_includes
+Export includes file: system/extras/f2fs_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_sparseblock_intermediates/export_includes
+Export includes file: system/core/libdiskconfig/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdiskconfig_intermediates/export_includes
+Export includes file: system/core/libsysutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsysutils_intermediates/export_includes
+Export includes file: external/scrypt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libscrypt_static_intermediates/export_includes
+Export includes file: external/libnl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libnl_intermediates/export_includes
+Export includes file: system/core/libsysutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsysutils_intermediates/export_includes
+Export includes file: frameworks/native/libs/binder/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbinder_intermediates/export_includes
+Export includes file: system/core/libdiskconfig/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libdiskconfig_intermediates/export_includes
+Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/liblogwrap_intermediates/export_includes
+Export includes file: system/extras/f2fs_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libf2fs_sparseblock_intermediates/export_includes
+Export includes file: external/libselinux/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libselinux_intermediates/export_includes
+Export includes file: system/core/libutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libutils_intermediates/export_includes
+Export includes file: hardware/libhardware_legacy/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libhardware_legacy_intermediates/export_includes
+Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext4_utils_intermediates/export_includes
+Export includes file: external/boringssl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcrypto_intermediates/export_includes
+Export includes file: hardware/libhardware/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libhardware_intermediates/export_includes
+Export includes file: system/security/softkeymaster/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsoftkeymaster_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/blkid/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_blkid_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmake_ext4fs_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminizip_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminiunz_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfsck_msdos_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libminipigz_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libzopfli_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libreboot_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsdcard_intermediates/import_includes
+Export includes file: external/lzma/xz-embedded/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libxz_intermediates/export_includes
+Export includes file: external/toybox/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtoybox_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtoybox_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmksh_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libfusesideload_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libf2fs_sparseblock_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdiskconfig_intermediates/import_includes
+Export includes file: external/libnl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnl_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libscrypt_static_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libnl_intermediates/import_includes
+Export includes file: bootable/recovery/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/recovery_intermediates/export_includes
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//recovery/root/sbin/recovery.txt
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmake_ext4fs_static.a.txt
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libminizip_static.a.txt
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libminiunz_static.a.txt
+Notice file: external/fsck_msdos/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libfsck_msdos.a.txt
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libreboot_static.a.txt
+Notice file: external/toybox/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libtoybox_driver.a.txt
+Notice file: external/mksh/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmksh_static.a.txt
+Notice file: bootable/recovery/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libfusesideload.a.txt
+Notice file: system/extras/f2fs_utils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libf2fs_sparseblock.a.txt
+Notice file: external/scrypt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libscrypt_static.a.txt
+Notice file: external/libnl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libnl.a.txt
+Export includes file: frameworks/base/core/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libandroid_runtime_intermediates/export_includes
+Export includes file: libnativehelper/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnativehelper_intermediates/export_includes
+Export includes file: system/core/libmemtrack/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmemtrack_intermediates/export_includes
+Export includes file: frameworks/base/libs/androidfw/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libandroidfw_intermediates/export_includes
+Export includes file: external/expat/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libexpat_intermediates/export_includes
+Export includes file: system/core/libnetutils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnetutils_intermediates/export_includes
+Export includes file: frameworks/native/libs/ui/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libui_intermediates/export_includes
+Export includes file: frameworks/native/libs/gui/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libgui_intermediates/export_includes
+Export includes file: frameworks/native/libs/input/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libinput_intermediates/export_includes
+Export includes file: frameworks/native/services/inputflinger/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libinputflinger_intermediates/export_includes
+Export includes file: frameworks/av/camera/tests/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcamera_client_intermediates/export_includes
+Export includes file: system/media/camera/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcamera_metadata_intermediates/export_includes
+Export includes file: external/skia/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libskia_intermediates/export_includes
+Export includes file: external/sqlite/dist/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsqlite_intermediates/export_includes
+Export includes file: frameworks/native/opengl/libs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libEGL_intermediates/export_includes
+Export includes file: frameworks/native/opengl/libs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libGLESv1_CM_intermediates/export_includes
+Export includes file: frameworks/native/opengl/libs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libGLESv2_intermediates/export_includes
+Export includes file: frameworks/native/opengl/libs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libETC1_intermediates/export_includes
+Export includes file: external/sonivox/arm-wt-22k/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsonivox_intermediates/export_includes
+Export includes file: external/boringssl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libssl_intermediates/export_includes
+Export includes file: external/icu/icu4c/source/common/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libicuuc_intermediates/export_includes
+Export includes file: external/icu/icu4c/source/i18n/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libicui18n_intermediates/export_includes
+Export includes file: frameworks/av/media/libmedia/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmedia_intermediates/export_includes
+Export includes file: external/jpeg/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjpeg_intermediates/export_includes
+Export includes file: system/core/libusbhost/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libusbhost_intermediates/export_includes
+Export includes file: external/harfbuzz_ng/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libharfbuzz_ng_intermediates/export_includes
+Export includes file: system/media/audio_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudioutils_intermediates/export_includes
+Export includes file: external/pdfium/fpdfsdk/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpdfium_intermediates/export_includes
+Export includes file: frameworks/av/media/img_utils/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libimg_utils_intermediates/export_includes
+Export includes file: system/netd/client/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnetd_client_intermediates/export_includes
+Export includes file: frameworks/av/radio/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libradio_intermediates/export_includes
+Export includes file: frameworks/av/soundtrigger/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsoundtrigger_intermediates/export_includes
+Export includes file: frameworks/minikin/libs/minikin/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libminikin_intermediates/export_includes
+Export includes file: system/core/libprocessgroup/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libprocessgroup_intermediates/export_includes
+Export includes file: system/core/libnativebridge/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnativebridge_intermediates/export_includes
+Export includes file: system/media/radio/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libradio_metadata_intermediates/export_includes
+Export includes file: frameworks/base/libs/hwui/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libhwui_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmemtrack_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libhardware_intermediates/import_includes
+Export includes file: system/core/libziparchive/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libziparchive_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbinder_intermediates/import_includes
+Export includes file: external/libunwind/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libunwind_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libunwind_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libz_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libziparchive_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libexpat_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnativehelper_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnetutils_intermediates/import_includes
+Export includes file: system/core/libsync/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsync_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsync_intermediates/import_includes
+Export includes file: external/protobuf/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libprotobuf-cpp-lite_intermediates/export_includes
+Export includes file: external/liblzf/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/liblzf_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libprotobuf-cpp-lite_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/liblzf_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libGLESv2_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libinput_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libinputflinger_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcrypto_intermediates/import_includes
+Export includes file: external/wpa_supplicant_8/wpa_supplicant/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwpa_client_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwpa_client_intermediates/import_includes
+Export includes file: frameworks/av/camera/tests/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcamera_parameters_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcamera_metadata_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcamera_parameters_intermediates/import_includes
+Export includes file: external/libpng/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpng_intermediates/export_includes
+Export includes file: external/freetype/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libft2_intermediates/export_includes
+Export includes file: external/giflib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libgif_intermediates/export_includes
+Export includes file: external/webp/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libwebp-decode_intermediates/export_includes
+Export includes file: external/webp/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libwebp-encode_intermediates/export_includes
+Export includes file: external/sfntly/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsfntly_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libjpeg_static_intermediates/import_includes
+Export includes file: external/jpeg/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libjpeg_static_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpng_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libicuuc_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libicui18n_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libft2_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libgif_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libwebp-decode_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libwebp-encode_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsfntly_intermediates/import_includes
+Export includes file: external/sqlite/android/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsqlite3_android_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsqlite3_android_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libGLESv1_CM_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libETC1_intermediates/import_includes
+Export includes file: external/pcre/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpcre_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpcre_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsonivox_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libssl_intermediates/import_includes
+Export includes file: frameworks/av/media/libstagefright/foundation/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_foundation_intermediates/export_includes
+Export includes file: frameworks/av/media/libnbaio/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnbaio_intermediates/export_includes
+Export includes file: frameworks/av/media/libmedia/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmedia_helper_intermediates/export_includes
+Export includes file: frameworks/av/media/libavextensions/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libavmediaextentions_intermediates/export_includes
+Export includes file: frameworks/native/services/powermanager/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpowermanager_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpowermanager_intermediates/import_includes
+Export includes file: external/speex/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libspeexresampler_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libspeexresampler_intermediates/import_includes
+Export includes file: frameworks/av/media/common_time/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcommon_time_client_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcommon_time_client_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmedia_helper_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libavmediaextentions_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libusbhost_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libharfbuzz_ng_intermediates/import_includes
+Export includes file: external/pdfium/core/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libpdfiumcore_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libpdfiumcore_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libimg_utils_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnetd_client_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libradio_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libradio_metadata_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsoundtrigger_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libminikin_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libprocessgroup_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnativebridge_intermediates/import_includes
+Export includes file: frameworks/rs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libRS_intermediates/export_includes
+Export includes file: frameworks/rs/cpp/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libRScpp_intermediates/export_includes
+Export includes file: frameworks/compile/libbcc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbcc_intermediates/export_includes
+Export includes file: frameworks/compile/libbcc/bcinfo/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbcinfo_intermediates/export_includes
+Export includes file: external/llvm/shared_llvm.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libLLVM_intermediates/export_includes
+Export includes file: frameworks/compile/libbcc/bcinfo/Wrap/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMWrap_intermediates/export_includes
+Export includes file: frameworks/compile/libbcc/bcinfo/BitReader_2_7/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitReader_2_7_intermediates/export_includes
+Export includes file: frameworks/compile/libbcc/bcinfo/BitReader_3_0/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitReader_3_0_intermediates/export_includes
+Export includes file: frameworks/compile/slang/BitWriter_3_2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitWriter_3_2_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMCodeGen_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/ARM/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMCodeGen_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMAsmParser_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/ARM/AsmParser/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMAsmParser_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMAsmPrinter_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/ARM/InstPrinter/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMAsmPrinter_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMInfo_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/ARM/TargetInfo/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMInfo_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMDesc_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/ARM/MCTargetDesc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMDesc_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMDisassembler_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/ARM/Disassembler/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMARMDisassembler_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMLinker_intermediates/import_includes
+Export includes file: external/llvm/lib/Linker/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMLinker_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMipo_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/IPO/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMipo_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMDebugInfoDWARF_intermediates/import_includes
+Export includes file: external/llvm/lib/DebugInfo/DWARF/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMDebugInfoDWARF_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMDebugInfoPDB_intermediates/import_includes
+Export includes file: external/llvm/lib/DebugInfo/PDB/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMDebugInfoPDB_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMIRReader_intermediates/import_includes
+Export includes file: external/llvm/lib/IRReader/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMIRReader_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitWriter_intermediates/import_includes
+Export includes file: external/llvm/lib/Bitcode/Writer/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitWriter_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitReader_intermediates/import_includes
+Export includes file: external/llvm/lib/Bitcode/Reader/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitReader_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMAsmPrinter_intermediates/import_includes
+Export includes file: external/llvm/lib/CodeGen/AsmPrinter/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMAsmPrinter_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMSelectionDAG_intermediates/import_includes
+Export includes file: external/llvm/lib/CodeGen/SelectionDAG/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMSelectionDAG_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMCodeGen_intermediates/import_includes
+Export includes file: external/llvm/lib/CodeGen/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMCodeGen_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMObject_intermediates/import_includes
+Export includes file: external/llvm/lib/Object/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMObject_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMScalarOpts_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/Scalar/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMScalarOpts_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMInstCombine_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/InstCombine/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMInstCombine_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMInstrumentation_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/Instrumentation/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMInstrumentation_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMTransformObjCARC_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/ObjCARC/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMTransformObjCARC_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMTransformUtils_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/Utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMTransformUtils_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMipa_intermediates/import_includes
+Export includes file: external/llvm/lib/Analysis/IPA/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMipa_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMAnalysis_intermediates/import_includes
+Export includes file: external/llvm/lib/Analysis/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMAnalysis_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMTarget_intermediates/import_includes
+Export includes file: external/llvm/lib/Target/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMTarget_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMMCDisassembler_intermediates/import_includes
+Export includes file: external/llvm/lib/MC/MCDisassembler/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMMCDisassembler_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMMC_intermediates/import_includes
+Export includes file: external/llvm/lib/MC/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMMC_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMMCParser_intermediates/import_includes
+Export includes file: external/llvm/lib/MC/MCParser/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMMCParser_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMCore_intermediates/import_includes
+Export includes file: external/llvm/lib/IR/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMCore_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMAsmParser_intermediates/import_includes
+Export includes file: external/llvm/lib/AsmParser/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMAsmParser_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMOption_intermediates/import_includes
+Export includes file: external/llvm/lib/Option/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMOption_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMSupport_intermediates/import_includes
+Export includes file: external/llvm/lib/Support/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMSupport_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMVectorize_intermediates/import_includes
+Export includes file: external/llvm/lib/Transforms/Vectorize/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMVectorize_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMProfileData_intermediates/import_includes
+Export includes file: external/llvm/lib/ProfileData/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMProfileData_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMWrap_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitReader_2_7_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitReader_3_0_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libLLVMBitWriter_3_2_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbccRenderscript_intermediates/import_includes
+Export includes file: frameworks/compile/libbcc/lib/Renderscript/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbccRenderscript_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbccCore_intermediates/import_includes
+Export includes file: frameworks/compile/libbcc/lib/Core/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbccCore_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbccSupport_intermediates/import_includes
+Export includes file: frameworks/compile/libbcc/lib/Support/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbccSupport_intermediates/export_includes
+Export includes file: frameworks/rs/cpp/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libRSDispatch_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libRSDispatch_intermediates/import_includes
+Export includes file: packages/apps/Bluetooth/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbluetooth_jni_intermediates/export_includes
+Notice file: frameworks/base/core/jni/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libandroid_runtime.so.txt
+Notice file: external/liblzf/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/liblzf.a.txt
+Notice file: system/core/libcutils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcutils.so.txt
+Notice file: system/core/liblog/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/liblog.so.txt
+Notice file: system/core/libutils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libutils.so.txt
+Notice file: external/libunwind/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libunwind.so.txt
+Notice file: frameworks/base/libs/androidfw/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libandroidfw.so.txt
+Notice file: external/zlib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libz.so.txt
+Notice file: external/speex/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libspeexresampler.so.txt
+Notice file: frameworks/av/camera/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcamera_client.so.txt
+Notice file: frameworks/av/camera/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcamera_parameters.a.txt
+Notice file: frameworks/native/libs/ui/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libui.so.txt
+Notice file: hardware/libhardware/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libhardware.so.txt
+Notice file: external/boringssl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcrypto.so.txt
+Notice file: external/expat/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libexpat.so.txt
+Notice file: hardware/libhardware_legacy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libhardware_legacy.so.txt
+Notice file: system/core/libnetutils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libnetutils.so.txt
+Notice file: external/harfbuzz_ng/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libharfbuzz_ng.so.txt
+Notice file: frameworks/base/libs/hwui/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libhwui.so.txt
+Notice file: external/llvm/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libLLVM.so.txt
+Notice file: frameworks/compile/libbcc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libbcc.so.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/import_includes
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d’: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d: No such file or directory
+Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/export_includes
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d: No such file or directory
+Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcompiler_rt_intermediates/export_includes
+Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.so.txt
+Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.a.txt
+Notice file: external/freetype/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libft2.so.txt
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
+Notice file: external/skia/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libskia.so.txt
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d: No such file or directory
+Notice file: external/giflib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libgif.a.txt
+Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjpeg.so.txt
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d: No such file or directory
+Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjpeg_static.a.txt
+Notice file: frameworks/av/media/libmedia/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmedia.so.txt
+Notice file: frameworks/av/media/libmedia/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmedia_helper.a.txt
+Notice file: frameworks/av/media/common_time/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcommon_time_client.so.txt
+Notice file: external/sonivox/arm-wt-22k/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libsonivox.so.txt
+Notice file: frameworks/av/media/libstagefright/foundation/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_foundation.so.txt
+Notice file: libnativehelper/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libnativehelper.so.txt
+Notice file: external/libselinux/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libselinux.so.txt
+Notice file: external/sqlite/dist/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libsqlite.so.txt
+Notice file: external/sqlite/android/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libsqlite3_android.a.txt
+Notice file: external/boringssl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libssl.so.txt
+Export includes file: hardware/libhardware_legacy/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpower_intermediates/export_includes
+Export includes file: external/tinyxml2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtinyxml2_intermediates/export_includes
+Export includes file: system/bt/embdrv/sbc/decoder/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-qcom_sbc_decoder_intermediates/export_includes
+Export includes file: system/bt/bta/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-brcm_bta_intermediates/export_includes
+Export includes file: system/bt/gki/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-brcm_gki_intermediates/export_includes
+Export includes file: system/bt/stack/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-brcm_stack_intermediates/export_includes
+Export includes file: system/bt/device/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbtdevice_intermediates/export_includes
+Export includes file: system/bt/hci/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-hci_intermediates/export_includes
+Export includes file: system/bt/utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-utils_intermediates/export_includes
+Export includes file: system/bt/btcore/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbtcore_intermediates/export_includes
+Export includes file: system/bt/osi/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libosi_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpower_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libtinyxml2_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-qcom_sbc_decoder_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-brcm_bta_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-brcm_gki_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-brcm_stack_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbtdevice_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-hci_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbt-utils_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbtcore_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libosi_intermediates/import_includes
+Export includes file: system/bt/main/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/bluetooth.default_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbt-vendor_intermediates/import_includes
+Export includes file: hardware/qcom/bt-caf/libbt-vendor/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libbt-vendor_intermediates/export_includes
+Notice file: hardware/qcom/bt-caf/libbt-vendor/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/vendor/lib/libbt-vendor.so.txt
+Notice file: hardware/libhardware_legacy/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libpower.so.txt
+Notice file: packages/apps/CertInstaller/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/CertInstaller/CertInstaller.apk.txt
+Notice file: packages/apps/DeskClock/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/DeskClock/DeskClock.apk.txt
+Notice file: development/apps/Development/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/Development/Development.apk.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libqcomfm_jni_intermediates/import_includes
+Export includes file: hardware/qcom/fm/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libqcomfm_jni_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_eglfence_intermediates/import_includes
+Export includes file: packages/apps/Gallery2/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_eglfence_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_filtershow_filters_intermediates/import_includes
+Export includes file: packages/apps/Gallery2/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_filtershow_filters_intermediates/export_includes
+Export includes file: frameworks/base/native/graphics/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjnigraphics_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjnigraphics_intermediates/import_includes
+Export includes file: frameworks/support/v8/renderscript/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/librsjni_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libRSSupport_intermediates/import_includes
+Export includes file: frameworks/support/v8/renderscript/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libRSSupport_intermediates/export_includes
+Export includes file: external/eigen/blas/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libF77blasV8_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libF77blasV8_intermediates/import_includes
+Export includes file: external/cblas/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libblasV8_intermediates/export_includes
+Notice file: external/cblas/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libblasV8.so.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_jpegstream_intermediates/import_includes
+Export includes file: packages/apps/Gallery2/jni_jpegstream/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_jpegstream_intermediates/export_includes
+Notice file: packages/apps/HTMLViewer/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/HTMLViewer/HTMLViewer.apk.txt
+Notice file: packages/inputmethods/LatinIME/java/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/LatinIME/LatinIME.apk.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libjni_latinime_common_static_intermediates/import_includes
+Export includes file: packages/inputmethods/LatinIME/native/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libjni_latinime_common_static_intermediates/export_includes
+Export includes file: packages/inputmethods/LatinIME/native/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_latinime_intermediates/export_includes
+Notice file: packages/wallpapers/Basic/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/LiveWallpapers/LiveWallpapers.apk.txt
+Notice file: packages/wallpapers/LivePicker/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk.txt
+Notice file: packages/wallpapers/LivePicker/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/etc/permissions/android.software.live_wallpaper.xml.txt
+Export includes file: external/chromium-libpac/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libpac_intermediates/export_includes
+Export includes file: external/v8/Android.libv8.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libv8_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libv8_intermediates/import_includes
+Export includes file: frameworks/base/packages/services/PacProcessor/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_pacprocessor_intermediates/export_includes
+Notice file: external/chromium-libpac/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libpac.so.txt
+Notice file: external/v8/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libv8.a.txt
+Notice file: frameworks/base/packages/PrintSpooler/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/PrintSpooler/PrintSpooler.apk.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libprintspooler_jni_intermediates/import_includes
+Export includes file: frameworks/base/packages/PrintSpooler/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libprintspooler_jni_intermediates/export_includes
+Notice file: packages/apps/Provision/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/Provision/Provision.apk.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_snapmosaic_intermediates/import_includes
+Export includes file: packages/apps/Snap/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_snapmosaic_intermediates/export_includes
+Notice file: packages/apps/Snap/jni/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjni_snapmosaic.so.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_snaptinyplanet_intermediates/import_includes
+Export includes file: packages/apps/Snap/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_snaptinyplanet_intermediates/export_includes
+Notice file: packages/apps/Snap/jni/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjni_snaptinyplanet.so.txt
+Notice file: packages/apps/SoundRecorder/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/SoundRecorder/SoundRecorder.apk.txt
+Notice file: packages/apps/Stk/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/Stk/Stk.apk.txt
+Export includes file: external/libvterm/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libvterm_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libvterm_intermediates/import_includes
+Export includes file: packages/apps/Terminal/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libjni_terminal_intermediates/export_includes
+Notice file: external/libvterm/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libvterm.a.txt
+Notice file: packages/providers/UserDictionaryProvider/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/UserDictionaryProvider/UserDictionaryProvider.apk.txt
+Notice file: frameworks/base/packages/WAPPushManager/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/app/WAPPushManager/WAPPushManager.apk.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libframesequence_intermediates/import_includes
+Export includes file: frameworks/ex/framesequence/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libframesequence_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libgiftranscode_intermediates/import_includes
+Export includes file: packages/apps/Messaging/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libgiftranscode_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwebviewchromium_loader_intermediates/import_includes
+Export includes file: frameworks/webview/chromium/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwebviewchromium_loader_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwebviewchromium_plat_support_intermediates/import_includes
+Export includes file: frameworks/webview/chromium/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwebviewchromium_plat_support_intermediates/export_includes
+Notice file: frameworks/base/cmds/am/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/am.txt
+Symlink: /android/exodus-6.0/out/target/product/serrano3gxx/system/bin/app_process -> app_process32
+Export includes file: frameworks/wilhelm/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libwilhelm_intermediates/export_includes
+Export includes file: art/sigchainlib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsigchain_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/http/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_http_support_intermediates/export_includes
+Export includes file: frameworks/av/media/libeffects/factory/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libeffects_intermediates/export_includes
+Export includes file: frameworks/wilhelm/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libopensles_helper_intermediates/export_includes
+Export includes file: frameworks/wilhelm/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libOpenSLESUT_intermediates/export_includes
+Export includes file: frameworks/av/drm/libdrmframework/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libdrmframework_intermediates/export_includes
+Export includes file: frameworks/av/media/utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmediautils_intermediates/export_includes
+Export includes file: external/libopus/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libopus_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/omx/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_omx_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/yuv/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_yuv_intermediates/export_includes
+Export includes file: external/tremolo/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libvorbisidec_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/codecs/common/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_enc_common_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/codecs/avc/common/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_avc_common_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/colorconversion/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_color_conversion_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/codecs/aacenc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_aacenc_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/matroska/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_matroska_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/filters/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_mediafilter_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/webm/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_webm_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/timedtext/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_timedtext_intermediates/export_includes
+Export includes file: external/libvpx/libvpx.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libvpx_intermediates/export_includes
+Export includes file: external/libvpx/libwebm.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libwebm_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/mpeg2ts/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_mpeg2ts_intermediates/export_includes
+Export includes file: frameworks/av/media/libstagefright/id3/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_id3_intermediates/export_includes
+Export includes file: external/flac/libFLAC/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libFLAC_intermediates/export_includes
+Export includes file: frameworks/av/media/libavextensions/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libavextensions_intermediates/export_includes
+Export includes file: frameworks/av/drm/common/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdrmframeworkcommon_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdrmframeworkcommon_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmediautils_intermediates/import_includes
+Export includes file: external/libogg/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libogg_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libogg_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_omx_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_yuv_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libvorbisidec_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_enc_common_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_avc_common_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_color_conversion_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_aacenc_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_matroska_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_mediafilter_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_webm_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_timedtext_intermediates/import_includes
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/bilinearfilter_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/copymem16x16_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/copymem8x4_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/copymem8x8_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/dc_only_idct_add_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/dequant_idct_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/dequantize_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/filter_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/intra4x4_predict_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/idct_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/iwalsh_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/loopfilter_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/simpleloopfilter_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/common/arm/armv6/sixtappredict8x4_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/encoder/arm/armv6/vp8_short_fdct4x4_armv6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vp8/encoder/arm/armv6/walsh_v6.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/bilinear_filter_media.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct16x16_1_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct16x16_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct32x32_1_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct32x32_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct4x4_1_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct4x4_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct8x8_1_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/idct8x8_add_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/intrapred_neon_asm.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/loopfilter_16_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/loopfilter_4_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/loopfilter_8_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/loopfilter_mb_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/sad_media.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/save_reg_neon.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/variance_halfpixvar16x16_h_media.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/variance_halfpixvar16x16_hv_media.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/variance_halfpixvar16x16_v_media.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/variance_media.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/vpx_convolve8_avg_neon_asm.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/vpx_convolve8_neon_asm.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/vpx_convolve_avg_neon_asm.asm
+target Generated: libvpx <= external/libvpx/libvpx/vpx_dsp/arm/vpx_convolve_copy_neon_asm.asm
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libvpx_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libwebm_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_mpeg2ts_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libstagefright_id3_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libFLAC_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libavextensions_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libstagefright_http_support_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libeffects_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libopensles_helper_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libOpenSLESUT_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libsigchain_intermediates/import_includes
+Export includes file: frameworks/base/cmds/app_process/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/app_process_intermediates/export_includes
+Notice file: frameworks/base/cmds/app_process/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/app_process32.txt
+Notice file: frameworks/av/media/libstagefright/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright.so.txt
+Notice file: frameworks/av/media/libstagefright/colorconversion/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_color_conversion.a.txt
+Notice file: frameworks/av/media/libstagefright/codecs/aacenc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_aacenc.a.txt
+Notice file: frameworks/av/media/libstagefright/matroska/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_matroska.a.txt
+Notice file: frameworks/av/media/libstagefright/timedtext/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_timedtext.a.txt
+Notice file: external/libvpx/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libvpx.a.txt
+Notice file: external/libvpx/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libwebm.a.txt
+Notice file: frameworks/av/media/libstagefright/mpeg2ts/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_mpeg2ts.a.txt
+Notice file: frameworks/av/media/libstagefright/id3/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_id3.a.txt
+Notice file: external/flac/libFLAC/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libFLAC.a.txt
+Notice file: frameworks/av/drm/libdrmframework/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libdrmframework.so.txt
+Notice file: frameworks/av/drm/common/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libdrmframeworkcommon.a.txt
+Notice file: external/libopus/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libopus.so.txt
+Notice file: external/libogg/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libogg.a.txt
+Notice file: frameworks/av/media/libstagefright/codecs/avc/common/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_avc_common.so.txt
+Notice file: frameworks/av/media/libstagefright/codecs/common/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_enc_common.so.txt
+Notice file: frameworks/av/media/libstagefright/omx/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_omx.so.txt
+Notice file: frameworks/av/media/libstagefright/yuv/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libstagefright_yuv.so.txt
+Notice file: external/tremolo/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libvorbisidec.so.txt
+Export includes file: bootable/recovery/applypatch/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libapplypatch_intermediates/export_includes
+Export includes file: external/bzip2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbz_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libbz_intermediates/import_includes
+Export includes file: bootable/recovery/applypatch/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/applypatch_intermediates/export_includes
+Notice file: bootable/recovery/applypatch/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/applypatch.txt
+Notice file: bootable/recovery/applypatch/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libapplypatch.a.txt
+Notice file: external/bzip2/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libbz.a.txt
+Notice file: frameworks/base/cmds/appops/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/appops.txt
+Notice file: frameworks/base/cmds/appwidget/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/appwidget.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/atrace_intermediates/import_includes
+Export includes file: frameworks/native/cmds/atrace/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/atrace_intermediates/export_includes
+Notice file: frameworks/native/cmds/atrace/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/atrace.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/bcc_intermediates/import_includes
+Export includes file: frameworks/compile/libbcc/tools/bcc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/bcc_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/ext2fs/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2fs_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/et/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_com_err_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/e2p/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_e2p_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/uuid/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_uuid_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_com_err_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_uuid_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_e2p_intermediates/import_includes
+Export includes file: external/e2fsprogs/misc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/blkid_intermediates/export_includes
+Export includes file: external/tinyalsa/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libtinyalsa_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libtinyalsa_intermediates/import_includes
+Export includes file: frameworks/base/cmds/bootanimation/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/bootanimation_intermediates/export_includes
+Notice file: external/tinyalsa/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libtinyalsa.so.txt
+Notice file: frameworks/base/cmds/bu/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/bu.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/bugreport_intermediates/import_includes
+Export includes file: frameworks/native/cmds/bugreport/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/bugreport_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/clatd_intermediates/import_includes
+Export includes file: external/android-clat/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/clatd_intermediates/export_includes
+Notice file: external/android-clat/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/clatd.txt
+Notice file: frameworks/base/cmds/content/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/content.txt
+Export includes file: external/curl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcurl_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcurl_intermediates/import_includes
+Export includes file: external/curl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/curl_intermediates/export_includes
+Notice file: external/curl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/curl.txt
+Notice file: external/curl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcurl.a.txt
+Symlink: /android/exodus-6.0/out/target/product/serrano3gxx/system/bin/dalvikvm -> dalvikvm32
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dalvikvm_intermediates/import_includes
+Export includes file: art/dalvikvm/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dalvikvm_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/debuggerd_intermediates/import_includes
+Export includes file: system/core/debuggerd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/debuggerd_intermediates/export_includes
+Notice file: system/core/debuggerd/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/debuggerd.txt
+Export includes file: art/compiler/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libart-compiler_intermediates/export_includes
+Export includes file: art/runtime/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libart_intermediates/export_includes
+target Generated: libart-compiler <= art/compiler/dex/quick/arm/arm_lir.h
+target Generated: libart-compiler <= art/compiler/dex/quick/arm64/arm64_lir.h
+target Generated: libart-compiler <= art/compiler/dex/quick/mips/mips_lir.h
+target Generated: libart-compiler <= art/compiler/dex/quick/resource_mask.h
+target Generated: libart-compiler <= art/compiler/dex/compiler_enums.h
+target Generated: libart-compiler <= art/compiler/dex/global_value_numbering.h
+target Generated: libart-compiler <= art/compiler/dex/pass_me.h
+target Generated: libart-compiler <= art/compiler/driver/compiler_driver.h
+target Generated: libart-compiler <= art/compiler/driver/compiler_options.h
+target Generated: libart-compiler <= art/compiler/image_writer.h
+target Generated: libart-compiler <= art/compiler/optimizing/locations.h
+target Generated: libart-compiler <= art/compiler/utils/arm/constants_arm.h
+Export includes file: external/vixl/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libvixl_intermediates/export_includes
+target Generated: libart <= art/runtime/arch/instruction_set.h
+target Generated: libart <= art/runtime/base/allocator.h
+target Generated: libart <= art/runtime/base/mutex.h
+target Generated: libart <= art/runtime/debugger.h
+target Generated: libart <= art/runtime/base/unix_file/fd_file.h
+target Generated: libart <= art/runtime/dex_file.h
+target Generated: libart <= art/runtime/dex_instruction.h
+target Generated: libart <= art/runtime/dex_instruction_utils.h
+target Generated: libart <= art/runtime/gc_root.h
+target Generated: libart <= art/runtime/gc/allocator/rosalloc.h
+target Generated: libart <= art/runtime/gc/collector/gc_type.h
+target Generated: libart <= art/runtime/gc/allocator_type.h
+target Generated: libart <= art/runtime/gc/collector_type.h
+target Generated: libart <= art/runtime/gc/space/region_space.h
+target Generated: libart <= art/runtime/gc/space/space.h
+target Generated: libart <= art/runtime/gc/heap.h
+target Generated: libart <= art/runtime/image.h
+target Generated: libart <= art/runtime/instrumentation.h
+target Generated: libart <= art/runtime/indirect_reference_table.h
+target Generated: libart <= art/runtime/invoke_type.h
+target Generated: libart <= art/runtime/jdwp/jdwp.h
+target Generated: libart <= art/runtime/jdwp/jdwp_constants.h
+target Generated: libart <= art/runtime/lock_word.h
+target Generated: libart <= art/runtime/mirror/class.h
+target Generated: libart <= art/runtime/oat.h
+target Generated: libart <= art/runtime/object_callbacks.h
+target Generated: libart <= art/runtime/profiler_options.h
+target Generated: libart <= art/runtime/quick/inline_method_analyser.h
+target Generated: libart <= art/runtime/runtime.h
+target Generated: libart <= art/runtime/stack.h
+target Generated: libart <= art/runtime/thread.h
+target Generated: libart <= art/runtime/thread_state.h
+target Generated: libart <= art/runtime/verifier/method_verifier.h
+Export includes file: art/sigchainlib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsigchain_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsigchain_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libvixl_intermediates/import_includes
+Export includes file: art/dex2oat/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dex2oat_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dhcpcd_intermediates/import_includes
+Export includes file: external/dhcpcd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dhcpcd_intermediates/export_includes
+Notice file: external/dhcpcd/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/dhcpcd.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dnsmasq_intermediates/import_includes
+Export includes file: external/dnsmasq/src/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dnsmasq_intermediates/export_includes
+Notice file: external/dnsmasq/src/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/dnsmasq.txt
+Notice file: frameworks/base/cmds/dpm/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/dpm.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/drmserver_intermediates/import_includes
+Export includes file: frameworks/av/drm/drmserver/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/drmserver_intermediates/export_includes
+Notice file: frameworks/av/drm/drmserver/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/drmserver.txt
+Export includes file: frameworks/native/cmds/dumpstate/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdumpstate.default_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdumpstate.default_intermediates/import_includes
+Export includes file: frameworks/native/cmds/dumpstate/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dumpstate_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dumpsys_intermediates/import_includes
+Export includes file: frameworks/native/cmds/dumpsys/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/dumpsys_intermediates/export_includes
+Notice file: frameworks/native/cmds/dumpsys/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/dumpsys.txt
+Export includes file: external/e2fsprogs/e2fsck/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_profile_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/quota/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_quota_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_profile_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext2_quota_intermediates/import_includes
+Export includes file: external/e2fsprogs/e2fsck/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/e2fsck_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtc_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_802_3_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_among_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_arp_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_arpreply_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_ip_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_ip6_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_limit_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_log_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_mark_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_mark_m_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_nat_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_nflog_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_pkttype_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_redirect_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_standard_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_stp_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_ulog_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_vlan_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtable_broute_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtable_filter_intermediates/export_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtable_nat_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtc_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_802_3_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_among_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_arp_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_arpreply_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_ip_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_ip6_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_limit_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_log_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_mark_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_mark_m_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_nat_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_nflog_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_pkttype_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_redirect_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_standard_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_stp_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_ulog_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebt_vlan_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtable_broute_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtable_filter_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libebtable_nat_intermediates/import_includes
+Export includes file: external/ebtables/userspace/ebtables2/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/ebtables_intermediates/export_includes
+Export includes file: external/exfat/libexfat/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libexfat_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libexfat_intermediates/import_includes
+Export includes file: external/exfat/fsck/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/fsck.exfat_intermediates/export_includes
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libf2fs_intermediates/export_includes
+Export includes file: system/core/libsparse/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsparse_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsparse_intermediates/import_includes
+Export includes file: external/f2fs-tools/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/fsck.f2fs_intermediates/export_includes
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/fsck.f2fs.txt
+Notice file: external/f2fs-tools/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libf2fs.so.txt
+Export includes file: external/fuse/lib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libfuse_intermediates/export_includes
+Export includes file: external/ntfs-3g/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libntfs-3g_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libfuse_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libntfs-3g_intermediates/import_includes
+Export includes file: external/ntfs-3g/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/fsck.ntfs_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/fsck_msdos_intermediates/import_includes
+Export includes file: external/fsck_msdos/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/fsck_msdos_intermediates/export_includes
+Notice file: external/fsck_msdos/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/fsck_msdos.txt
+Export includes file: system/gatekeeper/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libgatekeeper_intermediates/export_includes
+Export includes file: system/security/keystore/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libkeystore_binder_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libgatekeeper_intermediates/import_includes
+Export includes file: system/keymaster/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsoftkeymasterdevice_intermediates/export_includes
+Export includes file: system/keymaster/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libkeymaster_messages_intermediates/export_includes
+Export includes file: system/keymaster/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libkeymaster1_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libkeymaster_messages_intermediates/import_includes
+Export includes file: system/core/gatekeeperd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/gatekeeperd_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/grep_intermediates/import_includes
+Export includes file: system/core/toolbox/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/grep_intermediates/export_includes
+Notice file: system/core/toolbox/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/grep.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/gzip_intermediates/import_includes
+Export includes file: external/zlib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/gzip_intermediates/export_includes
+Notice file: external/zlib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/gzip.txt
+Notice file: frameworks/base/cmds/hid/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/hid.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libhidcommand_jni_intermediates/import_includes
+Export includes file: frameworks/base/cmds/hid/jni/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libhidcommand_jni_intermediates/export_includes
+Export includes file: hardware/qcom/wlan-caf/qcwcn/wpa_supplicant_8_lib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/lib_driver_cmd_qcwcn_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/lib_driver_cmd_qcwcn_intermediates/import_includes
+Export includes file: external/wpa_supplicant_8/hostapd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/hostapd_intermediates/export_includes
+Notice file: hardware/qcom/wlan-caf/qcwcn/wpa_supplicant_8_lib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/lib_driver_cmd_qcwcn.a.txt
+Notice file: external/libnl/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libnl.so.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/idmap_intermediates/import_includes
+Export includes file: frameworks/base/cmds/idmap/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/idmap_intermediates/export_includes
+Export includes file: frameworks/native/libs/diskusage/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdiskusage_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libdiskusage_intermediates/import_includes
+Export includes file: frameworks/native/cmds/installd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/installd_intermediates/export_includes
+Notice file: system/core/logwrapper/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/liblogwrap.so.txt
+Export includes file: external/iproute2/lib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libiprouteutil_intermediates/export_includes
+Export includes file: external/iproute2/lib/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnetlink_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libiprouteutil_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libnetlink_intermediates/import_includes
+Export includes file: external/iproute2/ip/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/ip_intermediates/export_includes
+Notice file: external/iproute2/ip/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/ip.txt
+Notice file: external/iproute2/lib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libiprouteutil.so.txt
+Notice file: external/iproute2/lib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libnetlink.so.txt
+Export includes file: external/iptables/extensions/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext_intermediates/export_includes
+Export includes file: external/iptables/extensions/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext6_intermediates/export_includes
+Export includes file: external/iptables/libiptc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libip6tc_intermediates/export_includes
+Export includes file: external/iptables/libxtables/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libxtables_intermediates/export_includes
+target Generated: libext <= external/iptables/extensions/libxt_addrtype.c
+target Generated: libext <= external/iptables/extensions/libxt_AUDIT.c
+target Generated: libext <= external/iptables/extensions/libxt_bpf.c
+target Generated: libext <= external/iptables/extensions/libxt_CHECKSUM.c
+target Generated: libext <= external/iptables/extensions/libxt_CLASSIFY.c
+target Generated: libext <= external/iptables/extensions/libxt_cluster.c
+target Generated: libext <= external/iptables/extensions/libxt_comment.c
+target Generated: libext <= external/iptables/extensions/libxt_connbytes.c
+target Generated: libext <= external/iptables/extensions/libxt_connlimit.c
+target Generated: libext <= external/iptables/extensions/libxt_connmark.c
+target Generated: libext <= external/iptables/extensions/libxt_CONNMARK.c
+target Generated: libext <= external/iptables/extensions/libxt_CONNSECMARK.c
+target Generated: libext <= external/iptables/extensions/libxt_conntrack.c
+target Generated: libext <= external/iptables/extensions/libxt_cpu.c
+target Generated: libext <= external/iptables/extensions/libxt_CT.c
+target Generated: libext <= external/iptables/extensions/libxt_devgroup.c
+target Generated: libext <= external/iptables/extensions/libxt_dscp.c
+target Generated: libext <= external/iptables/extensions/libxt_DSCP.c
+target Generated: libext <= external/iptables/extensions/libxt_ecn.c
+target Generated: libext <= external/iptables/extensions/libxt_esp.c
+target Generated: libext <= external/iptables/extensions/libxt_hashlimit.c
+target Generated: libext <= external/iptables/extensions/libxt_helper.c
+target Generated: libext <= external/iptables/extensions/libxt_HMARK.c
+target Generated: libext <= external/iptables/extensions/libxt_IDLETIMER.c
+target Generated: libext <= external/iptables/extensions/libxt_iprange.c
+target Generated: libext <= external/iptables/extensions/libxt_LED.c
+target Generated: libext <= external/iptables/extensions/libxt_length.c
+target Generated: libext <= external/iptables/extensions/libxt_limit.c
+target Generated: libext <= external/iptables/extensions/libxt_mac.c
+target Generated: libext <= external/iptables/extensions/libxt_mark.c
+target Generated: libext <= external/iptables/extensions/libxt_MARK.c
+target Generated: libext <= external/iptables/extensions/libxt_multiport.c
+target Generated: libext <= external/iptables/extensions/libxt_nfacct.c
+target Generated: libext <= external/iptables/extensions/libxt_NFLOG.c
+target Generated: libext <= external/iptables/extensions/libxt_NFQUEUE.c
+target Generated: libext <= external/iptables/extensions/libxt_osf.c
+target Generated: libext <= external/iptables/extensions/libxt_owner.c
+target Generated: libext <= external/iptables/extensions/libxt_physdev.c
+target Generated: libext <= external/iptables/extensions/libxt_pkttype.c
+target Generated: libext <= external/iptables/extensions/libxt_policy.c
+target Generated: libext <= external/iptables/extensions/libxt_quota2.c
+target Generated: libext <= external/iptables/extensions/libxt_quota.c
+target Generated: libext <= external/iptables/extensions/libxt_rateest.c
+target Generated: libext <= external/iptables/extensions/libxt_RATEEST.c
+target Generated: libext <= external/iptables/extensions/libxt_recent.c
+target Generated: libext <= external/iptables/extensions/libxt_rpfilter.c
+target Generated: libext <= external/iptables/extensions/libxt_sctp.c
+target Generated: libext <= external/iptables/extensions/libxt_SECMARK.c
+target Generated: libext <= external/iptables/extensions/libxt_set.c
+target Generated: libext <= external/iptables/extensions/libxt_SET.c
+target Generated: libext <= external/iptables/extensions/libxt_socket.c
+target Generated: libext <= external/iptables/extensions/libxt_standard.c
+target Generated: libext <= external/iptables/extensions/libxt_statistic.c
+target Generated: libext <= external/iptables/extensions/libxt_string.c
+target Generated: libext <= external/iptables/extensions/libxt_tcp.c
+target Generated: libext <= external/iptables/extensions/libxt_tcpmss.c
+target Generated: libext <= external/iptables/extensions/libxt_TCPMSS.c
+target Generated: libext <= external/iptables/extensions/libxt_TEE.c
+target Generated: libext <= external/iptables/extensions/libxt_time.c
+target Generated: libext <= external/iptables/extensions/libxt_tos.c
+target Generated: libext <= external/iptables/extensions/libxt_TOS.c
+target Generated: libext <= external/iptables/extensions/libxt_TPROXY.c
+target Generated: libext <= external/iptables/extensions/libxt_TRACE.c
+target Generated: libext <= external/iptables/extensions/libxt_u32.c
+target Generated: libext <= external/iptables/extensions/libxt_udp.c
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext_intermediates/import_includes
+target Generated: libext6 <= external/iptables/extensions/libip6t_ah.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_DNAT.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_DNPT.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_dst.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_eui64.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_frag.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_hbh.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_hl.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_HL.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_icmp6.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_ipv6header.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_LOG.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_MASQUERADE.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_mh.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_NETMAP.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_REDIRECT.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_REJECT.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_rt.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_SNAT.c
+target Generated: libext6 <= external/iptables/extensions/libip6t_SNPT.c
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext6_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libip6tc_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libxtables_intermediates/import_includes
+Export includes file: external/iptables/iptables/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/ip6tables_intermediates/export_includes
+Export includes file: external/iptables/extensions/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext4_intermediates/export_includes
+Export includes file: external/iptables/libiptc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libip4tc_intermediates/export_includes
+target Generated: libext4 <= external/iptables/extensions/libipt_ah.c
+target Generated: libext4 <= external/iptables/extensions/libipt_CLUSTERIP.c
+target Generated: libext4 <= external/iptables/extensions/libipt_DNAT.c
+target Generated: libext4 <= external/iptables/extensions/libipt_ECN.c
+target Generated: libext4 <= external/iptables/extensions/libipt_icmp.c
+target Generated: libext4 <= external/iptables/extensions/libipt_LOG.c
+target Generated: libext4 <= external/iptables/extensions/libipt_MASQUERADE.c
+target Generated: libext4 <= external/iptables/extensions/libipt_MIRROR.c
+target Generated: libext4 <= external/iptables/extensions/libipt_NETMAP.c
+target Generated: libext4 <= external/iptables/extensions/libipt_realm.c
+target Generated: libext4 <= external/iptables/extensions/libipt_REDIRECT.c
+target Generated: libext4 <= external/iptables/extensions/libipt_REJECT.c
+target Generated: libext4 <= external/iptables/extensions/libipt_SAME.c
+target Generated: libext4 <= external/iptables/extensions/libipt_SNAT.c
+target Generated: libext4 <= external/iptables/extensions/libipt_ttl.c
+target Generated: libext4 <= external/iptables/extensions/libipt_TTL.c
+target Generated: libext4 <= external/iptables/extensions/libipt_ULOG.c
+target Generated: libext4 <= external/iptables/extensions/libipt_unclean.c
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libext4_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libip4tc_intermediates/import_includes
+Export includes file: external/iptables/iptables/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/iptables_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/keystore_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsoftkeymaster_intermediates/import_includes
+Export includes file: system/security/keystore/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/keystore_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/ADT/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldADT_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Core/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldCore_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Fragment/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldFragment_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/LD/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldLD_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/LD/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldLDVariant_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/MC/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldMC_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Object/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldObject_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Script/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Support/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldSupport_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Target/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldTarget_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Target/ARM/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldARMTarget_intermediates/export_includes
+Export includes file: frameworks/compile/mclinker/lib/Target/ARM/TargetInfo/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldARMInfo_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldADT_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldCore_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldFragment_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldLD_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldLDVariant_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldMC_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldObject_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/import_includes
+Yacc: libmcldScript <= frameworks/compile/mclinker/lib/Script/ScriptParser.yy
+prebuilts/misc/linux-x86/bison/bison -d  -o /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.cpp frameworks/compile/mclinker/lib/Script/ScriptParser.yy
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldSupport_intermediates/import_includes
+Lex: libmcldScript <= frameworks/compile/mclinker/lib/Script/ScriptScanner.ll
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldTarget_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldARMTarget_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldARMInfo_intermediates/import_includes
+Export includes file: frameworks/compile/mclinker/tools/mcld/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/ld.mc_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_nomalloc_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libc_nomalloc_intermediates/import_includes
+Export includes file: bionic/linker/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/linker_intermediates/export_includes
+Notice file: bionic/linker/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/linker.txt
+Notice file: bionic/libc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libc_nomalloc.a.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/lmkd_intermediates/import_includes
+Export includes file: system/core/lmkd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/lmkd_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logcat_intermediates/import_includes
+Export includes file: system/core/logcat/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logcat_intermediates/export_includes
+Notice file: system/core/logcat/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/logcat.txt
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logd_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsysutils_intermediates/import_includes
+Export includes file: system/core/logd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logd_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logwrapper_intermediates/import_includes
+Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logwrapper_intermediates/export_includes
+Notice file: system/core/logwrapper/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/logwrapper.txt
+touch /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/make_ext4fs_intermediates/import_includes
+echo '#ifndef 'ScriptParser_h > /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext4_utils_intermediates/import_includes
+echo '#define 'ScriptParser_h >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/make_ext4fs_intermediates/export_includes
+cat /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/make_ext4fs.txt
+Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libext4_utils.so.txt
+echo '#endif' >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/mdnsd_intermediates/import_includes
+Export includes file: external/mdnsresponder/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/mdnsd_intermediates/export_includes
+Notice file: frameworks/base/cmds/media/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/media.txt
+Export includes file: frameworks/av/services/audioflinger/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudioflinger_intermediates/export_includes
+Export includes file: frameworks/av/services/audiopolicy/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudiopolicyservice_intermediates/export_includes
+Export includes file: frameworks/av/services/camera/libcameraservice/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcameraservice_intermediates/export_includes
+Export includes file: frameworks/av/services/medialog/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmedialogservice_intermediates/export_includes
+Export includes file: frameworks/av/services/mediaresourcemanager/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libresourcemanagerservice_intermediates/export_includes
+Export includes file: frameworks/av/media/libmediaplayerservice/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libmediaplayerservice_intermediates/export_includes
+Export includes file: frameworks/av/services/soundtrigger/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsoundtriggerservice_intermediates/export_includes
+Export includes file: frameworks/av/services/radio/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libradioservice_intermediates/export_includes
+Export includes file: external/icu/android_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libicuandroid_utils_intermediates/export_includes
+Export includes file: frameworks/av/media/mediaserver/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libregistermsext_intermediates/export_includes
+Export includes file: frameworks/av/services/audioflinger/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudioresampler_intermediates/export_includes
+Export includes file: system/media/audio_utils/spdif/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudiospdif_intermediates/export_includes
+Export includes file: frameworks/av/services/audioflinger/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libserviceutility_intermediates/export_includes
+Export includes file: external/sonic/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsonic_intermediates/export_includes
+Export includes file: frameworks/av/media/libcpustats/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcpustats_intermediates/export_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudioresampler_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudiospdif_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libserviceutility_intermediates/import_includes
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsonic_intermediates/import_includes
+make: *** No rule to make target `/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudiopolicymanager_intermediates/export_includes', needed by `/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libaudiopolicyservice_intermediates/import_includes'.  Stop.
+make: *** Waiting for unfinished jobs....
+Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcpustats_intermediates/import_includes
+make: Leaving directory `/android/exodus-6.0'
+
+[0;31m#### make failed to build some targets (23 seconds) ####[0m
+
+
+real	0m23.422s
+user	0m19.072s
+sys	0m2.828s
+build/envsetup.sh: line 571: notify-send: command not found
+Build failed
+/android/exodus-6.0/out/target/product/serrano3gxx removed
