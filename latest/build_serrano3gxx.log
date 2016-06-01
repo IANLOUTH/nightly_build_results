@@ -731,29 +731,29 @@ Notice file: external/harfbuzz_ng/NOTICE -- /android/exodus-6.0/out/target/produ
 Notice file: frameworks/base/libs/hwui/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libhwui.so.txt
 Notice file: external/llvm/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libLLVM.so.txt
 Notice file: frameworks/compile/libbcc/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libbcc.so.txt
-cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
-/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
 Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/import_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d’: No such file or directory
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
 Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/export_includes
+Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcompiler_rt_intermediates/export_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d: No such file or directory
-Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libcompiler_rt_intermediates/export_includes
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.so.txt
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.a.txt
 Notice file: external/freetype/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libft2.so.txt
-cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory
-/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
 Notice file: external/skia/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libskia.so.txt
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
 Notice file: external/giflib/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libgif.a.txt
-Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjpeg.so.txt
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d: No such file or directory
+Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjpeg.so.txt
 Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libjpeg_static.a.txt
 Notice file: frameworks/av/media/libmedia/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmedia.so.txt
 Notice file: frameworks/av/media/libmedia/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libmedia_helper.a.txt
@@ -1346,16 +1346,16 @@ Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXE
 Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libsysutils_intermediates/import_includes
 Export includes file: system/core/logd/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logd_intermediates/export_includes
 Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logwrapper_intermediates/import_includes
-touch /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp
 Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/logwrapper_intermediates/export_includes
-echo '#ifndef 'ScriptParser_h > /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Notice file: system/core/logwrapper/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/logwrapper.txt
-echo '#define 'ScriptParser_h >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+touch /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp
 Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/make_ext4fs_intermediates/import_includes
-cat /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+echo '#ifndef 'ScriptParser_h > /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/SHARED_LIBRARIES/libext4_utils_intermediates/import_includes
-echo '#endif' >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+echo '#define 'ScriptParser_h >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
+cat /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/make_ext4fs_intermediates/export_includes
+echo '#endif' >> /android/exodus-6.0/out/target/product/serrano3gxx/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/bin/make_ext4fs.txt
 Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serrano3gxx/obj/NOTICE_FILES/src//system/lib/libext4_utils.so.txt
 Import includes file: /android/exodus-6.0/out/target/product/serrano3gxx/obj/EXECUTABLES/mdnsd_intermediates/import_includes
@@ -1388,9 +1388,9 @@ make: Leaving directory `/android/exodus-6.0'
 [0;31m#### make failed to build some targets (25 seconds) ####[0m
 
 
-real	0m24.823s
-user	0m19.760s
-sys	0m3.512s
+real	0m24.897s
+user	0m19.940s
+sys	0m3.416s
 build/envsetup.sh: line 571: notify-send: command not found
 Build failed
 /android/exodus-6.0/out/target/product/serrano3gxx removed

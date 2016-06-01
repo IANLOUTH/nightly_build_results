@@ -735,11 +735,11 @@ Notice file: external/llvm/NOTICE -- /android/exodus-6.0/out/target/product/serr
 Notice file: frameworks/compile/libbcc/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libbcc.so.txt
 Import includes file: /android/exodus-6.0/out/target/product/serranoltexx/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/import_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d’: No such file or directory
-cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d: No such file or directory
-/bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d: No such file or directory
 Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serranoltexx/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/export_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d: No such file or directory
@@ -747,15 +747,15 @@ Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.so.txt
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.a.txt
 Notice file: external/freetype/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libft2.so.txt
-Notice file: external/skia/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libskia.so.txt
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
+Notice file: external/skia/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libskia.so.txt
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d: No such file or directory
 Notice file: external/giflib/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libgif.a.txt
+Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libjpeg.so.txt
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranoltexx/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d: No such file or directory
-Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libjpeg.so.txt
 Notice file: external/jpeg/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libjpeg_static.a.txt
 Notice file: frameworks/av/media/libmedia/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libmedia.so.txt
 Notice file: frameworks/av/media/libmedia/NOTICE -- /android/exodus-6.0/out/target/product/serranoltexx/obj/NOTICE_FILES/src//system/lib/libmedia_helper.a.txt
@@ -1397,9 +1397,9 @@ make: Leaving directory `/android/exodus-6.0'
 [0;31m#### make failed to build some targets (25 seconds) ####[0m
 
 
-real	0m24.685s
-user	0m19.804s
-sys	0m3.340s
+real	0m24.973s
+user	0m20.020s
+sys	0m3.380s
 build/envsetup.sh: line 571: notify-send: command not found
 Build failed
 /android/exodus-6.0/out/target/product/serranoltexx removed
