@@ -3,24 +3,16 @@ including device/generic/mini-emulator-armv7-a-neon/vendorsetup.sh
 including device/generic/mini-emulator-mips/vendorsetup.sh
 including device/generic/mini-emulator-x86_64/vendorsetup.sh
 including device/generic/mini-emulator-x86/vendorsetup.sh
-including device/google/sprout4/vendorsetup.sh
 including device/htc/flounder/vendorsetup.sh
 including device/huawei/angler/vendorsetup.sh
-including device/lge/d800/vendorsetup.sh
-including device/lge/d801/vendorsetup.sh
-including device/lge/d803/vendorsetup.sh
 including device/lge/hammerhead/vendorsetup.sh
 including device/lge/ls980/vendorsetup.sh
 including device/lge/mako/vendorsetup.sh
-including device/lge/vs980/vendorsetup.sh
 including device/moto/shamu/vendorsetup.sh
 including device/oneplus/bacon/vendorsetup.sh
 including device/oneplus/oneplus2/vendorsetup.sh
-including device/oneplus/onyx/vendorsetup.sh
 including device/samsung/serrano3gxx/vendorsetup.sh
-including device/samsung/serranodsdd/vendorsetup.sh
 including device/samsung/serranoltexx/vendorsetup.sh
-including device/xiaomi/armani/vendorsetup.sh
 including device/xiaomi/cancro/vendorsetup.sh
 including vendor/exodus/vendorsetup.sh
 including sdk/bash_completion/adb.bash
@@ -40,6 +32,18 @@ Set cache size limit to 20.0 Gbytes
 You're building on Linux
 
 including vendor/exodus/vendorsetup.sh
+build/core/product_config.mk:234: *** Can not locate config makefile for product "exodus_serranodsdd".  Stop.
+From ssh://github.com/TeamExodus/device_samsung_serranodsdd
+ * [new branch]      EXODUS-6.0 -> roomservice/EXODUS-6.0
+
+Fetching project TeamExodus/device_samsung_serranodsdd
+Your device can't be found in device sources..
+found the serranodsdd device repo
+device_url: device_samsung_serranodsdd
+device_dir: device/samsung/serranodsdd
+github_url: TeamExodus/device_samsung_serranodsdd
+wrote the new roomservice manifest
+syncing the device config
 Checking dependencies in device/samsung/serranodsdd.
 Checking dependencies in device/qcom/common.
 Checking dependencies in device/samsung/qcom-common.
@@ -52,7 +56,7 @@ Checking dependencies in kernel/samsung/msm8930-common.
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=6.0.1
-EXODUS_VERSION=6.0-20160601-NIGHTLY-serranodsdd
+EXODUS_VERSION=6.0-20160602-NIGHTLY-serranodsdd
 TARGET_PRODUCT=exodus_serranodsdd
 TARGET_BUILD_VARIANT=user
 TARGET_BUILD_TYPE=release
@@ -86,7 +90,7 @@ You're building on Linux
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=6.0.1
-EXODUS_VERSION=6.0-20160601-NIGHTLY-serranodsdd
+EXODUS_VERSION=6.0-20160602-NIGHTLY-serranodsdd
 TARGET_PRODUCT=exodus_serranodsdd
 TARGET_BUILD_VARIANT=user
 TARGET_BUILD_TYPE=release
@@ -733,9 +737,9 @@ Notice file: frameworks/compile/libbcc/NOTICE -- /android/exodus-6.0/out/target/
 Import includes file: /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/import_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d’: No such file or directory
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d’: No such file or directory
-cp: /bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d: No such file or directory
-cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/allocation.d: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore.bc_intermediates/ll32/math.d: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/allocation.d: No such file or directory
 Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libcompiler_rt_intermediates/export_includes
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_debug.bc_intermediates/ll32/math.d’: No such file or directory
@@ -744,11 +748,11 @@ Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.so.txt
 Notice file: external/compiler-rt/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/lib/libcompiler_rt.a.txt
 Notice file: external/freetype/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/lib/libft2.so.txt
-cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’cp: : No such file or directorycannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’
-: No such file or directory
-/bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d: No such file or directory
-/bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
 Notice file: external/skia/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/lib/libskia.so.txt
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d’: No such file or directory
+cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d’: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/math.d: No such file or directory
+/bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/ll32/allocation.d: No such file or directory
 Notice file: external/giflib/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/lib/libgif.a.txt
 cp: cannot stat ‘/android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d’: No such file or directory
 /bin/bash: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libclcore_neon.bc_intermediates/arch/neon.d: No such file or directory
@@ -1354,8 +1358,8 @@ echo '#define 'ScriptParser_h >> /android/exodus-6.0/out/target/product/serranod
 Import includes file: /android/exodus-6.0/out/target/product/serranodsdd/obj/SHARED_LIBRARIES/libext4_utils_intermediates/import_includes
 cat /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.hpp >> /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/serranodsdd/obj/EXECUTABLES/make_ext4fs_intermediates/export_includes
-echo '#endif' >> /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/bin/make_ext4fs.txt
+echo '#endif' >> /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libmcldScript_intermediates/ScriptParser.h
 Notice file: system/extras/ext4_utils/NOTICE -- /android/exodus-6.0/out/target/product/serranodsdd/obj/NOTICE_FILES/src//system/lib/libext4_utils.so.txt
 Import includes file: /android/exodus-6.0/out/target/product/serranodsdd/obj/EXECUTABLES/mdnsd_intermediates/import_includes
 Export includes file: external/mdnsresponder/Android.mk -- /android/exodus-6.0/out/target/product/serranodsdd/obj/EXECUTABLES/mdnsd_intermediates/export_includes
@@ -1384,12 +1388,12 @@ make: *** Waiting for unfinished jobs....
 Import includes file: /android/exodus-6.0/out/target/product/serranodsdd/obj/STATIC_LIBRARIES/libcpustats_intermediates/import_includes
 make: Leaving directory `/android/exodus-6.0'
 
-[0;31m#### make failed to build some targets (25 seconds) ####[0m
+[0;31m#### make failed to build some targets (23 seconds) ####[0m
 
 
-real	0m24.674s
-user	0m19.812s
-sys	0m3.284s
+real	0m23.085s
+user	0m18.940s
+sys	0m2.592s
 build/envsetup.sh: line 571: notify-send: command not found
 Build failed
 /android/exodus-6.0/out/target/product/serranodsdd removed
