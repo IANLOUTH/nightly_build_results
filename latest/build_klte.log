@@ -254,12 +254,12 @@ make: *** Waiting for unfinished jobs....
 Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/klte/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
 make: Leaving directory `/android/exodus-6.0'
 
-[0;31m#### make failed to build some targets (25 seconds) ####[0m
+[0;31m#### make failed to build some targets (22 seconds) ####[0m
 
 
-real	0m24.943s
-user	0m16.756s
-sys	0m3.388s
+real	0m22.638s
+user	0m16.752s
+sys	0m3.360s
 build/envsetup.sh: line 571: notify-send: command not found
 Build failed
 /android/exodus-6.0/out/target/product/klte removed
