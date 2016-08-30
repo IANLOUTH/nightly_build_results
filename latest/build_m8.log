@@ -1,0 +1,254 @@
+including device/generic/mini-emulator-arm64/vendorsetup.sh
+including device/generic/mini-emulator-armv7-a-neon/vendorsetup.sh
+including device/generic/mini-emulator-mips/vendorsetup.sh
+including device/generic/mini-emulator-x86_64/vendorsetup.sh
+including device/generic/mini-emulator-x86/vendorsetup.sh
+including device/google/sprout4/vendorsetup.sh
+including device/htc/flounder/vendorsetup.sh
+including device/huawei/angler/vendorsetup.sh
+including device/lge/d800/vendorsetup.sh
+including device/lge/d801/vendorsetup.sh
+including device/lge/d803/vendorsetup.sh
+including device/lge/h811/vendorsetup.sh
+including device/lge/h815/vendorsetup.sh
+including device/lge/hammerhead/vendorsetup.sh
+including device/lge/ls980/vendorsetup.sh
+including device/lge/mako/vendorsetup.sh
+including device/lge/vs980/vendorsetup.sh
+including device/moto/shamu/vendorsetup.sh
+including device/oneplus/bacon/vendorsetup.sh
+including device/oneplus/oneplus2/vendorsetup.sh
+including device/oneplus/onyx/vendorsetup.sh
+including device/samsung/serrano3gxx/vendorsetup.sh
+including device/samsung/serranodsdd/vendorsetup.sh
+including device/samsung/serranoltexx/vendorsetup.sh
+including device/xiaomi/armani/vendorsetup.sh
+including vendor/exodus/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/exodus/bash_completion/git.bash
+including vendor/exodus/bash_completion/repo.bash
+checking for changelog
+Set cache size limit to 20.0 Gbytes
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  ExodusAndroid - 6.0.1                
+    by PrimeDirective && Team Exodus   
+
+You're building on Linux
+
+including vendor/exodus/vendorsetup.sh
+Checking dependencies in device/htc/m8.
+Checking dependencies in device/htc/m8-common.
+Checking dependencies in device/htc/msm8974-common.
+Checking dependencies in kernel/htc/msm8974.
+Checking dependencies in device/qcom/common.
+Checking dependencies in vendor/htc/m8.
+Checking dependencies in vendor/htc/m8-common.
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+EXODUS_VERSION=6.0-20160830-NIGHTLY-m8
+TARGET_PRODUCT=exodus_m8
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.19.0-59-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=MTC20F
+OUT_DIR=/android/exodus-6.0/out
+SIGNING_KEY=releasekey
+============================================
+
+     ______               __           
+    / ____/  ______  ____/ /_  _______ 
+   / __/ | |/_/ __ \/ __  / / / / ___/ 
+  / /____>  </ /_/ / /_/ / /_/ (__  )  
+ /_____/_/|_|\____/\__,_/\__,_/____/   
+ 
+  ExodusAndroid - 6.0.1                
+    by PrimeDirective && Team Exodus   
+
+You're building on Linux
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+EXODUS_VERSION=6.0-20160830-NIGHTLY-m8
+TARGET_PRODUCT=exodus_m8
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.19.0-59-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=MTC20F
+OUT_DIR=/android/exodus-6.0/out
+SIGNING_KEY=releasekey
+============================================
+ src/org/cyanogenmod/hardware/DisplayColorCalibration.java src/org/cyanogenmod/hardware/DisplayGammaCalibration.java src/org/cyanogenmod/hardware/HighTouchSensitivity.java src/org/cyanogenmod/hardware/KeyDisabler.java src/org/cyanogenmod/hardware/LongTermOrbits.java src/org/cyanogenmod/hardware/SerialNumber.java src/org/cyanogenmod/hardware/TapToWake.java src/org/cyanogenmod/hardware/ThermalMonitor.java src/org/cyanogenmod/hardware/ThermalUpdateCallback.java src/org/cyanogenmod/hardware/TouchscreenHovering.java src/org/cyanogenmod/hardware/util/FileUtils.java
+find: `src': No such file or directory
+find: `../callinfo_provider/src': No such file or directory
+make: Entering directory `/android/exodus-6.0'
+build/core/base_rules.mk:559: warning: overriding commands for target `/android/exodus-6.0/out/target/product/m8/system/xbin/wget'
+external/busybox/Android.mk:166: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/m8/system/xbin/wget'
+*** Overlay change detected, clean shared intermediate files...
+*** rm -rf /android/exodus-6.0/out/target/common/obj/APPS/Telecom_intermediates /android/exodus-6.0/out/target/common/obj/APPS/Settings_intermediates /android/exodus-6.0/out/target/common/obj/APPS/framework-res_intermediates /android/exodus-6.0/out/target/common/obj/APPS/Dialer_intermediates /android/exodus-6.0/out/target/common/obj/APPS/Snap_intermediates /android/exodus-6.0/out/target/common/obj/APPS/TeleService_intermediates /android/exodus-6.0/out/target/common/obj/APPS/SystemUI_intermediates
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-6.0/out/target/product/m8/system/lib/hw/consumerir.default.so'
+build/core/base_rules.mk:559: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/m8/system/lib/hw/consumerir.default.so'
+build/core/Makefile:46: warning: overriding commands for target `/android/exodus-6.0/out/target/product/m8/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so'
+build/core/base_rules.mk:559: warning: ignoring old commands for target `/android/exodus-6.0/out/target/product/m8/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so'
+No private recovery resources for TARGET_DEVICE m8
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libril/ril_ex.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libexpat/expat.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libexpat/expat_external.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/xf86drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/xf86drmMode.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/drm_fourcc.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/drm_mode.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/drm_sarea.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/i915_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/mach64_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/mga_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/nouveau_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/qxl_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/r128_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/savage_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/sis_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/tegra_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/via_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/vmwgfx_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/nouveau.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_bo.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_cs.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_surface.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_bo_gem.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_cs_gem.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_bo_int.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/radeon_cs_int.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/r600_pci_ids.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/rockchip_drm.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/rockchip_drmif.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/tegra.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libdrm/libkms.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/selinux/selinux.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/selinux/label.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/selinux/context.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/selinux/avc.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/selinux/android.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/parameter/ParameterMgrLoggerForward.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/parameter/ParameterMgrPlatformConnector.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/parameter/ParameterMgrFullConnector.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/parameter/SelectionCriterionTypeInterface.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/parameter/SelectionCriterionInterface.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/parameter/ParameterHandle.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c-private.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libsonivox/eas.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libsonivox/eas_types.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libsonivox/eas_reverb.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libsonivox/jet.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libsonivox/ARM_synth_constants_gnu.inc
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libwpa_client/wpa_ctrl.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/libwpa_client/qca-vendor.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/media_resource_manager/MediaResourceArbitrator.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/media_resource_manager/OMX_adaptor.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-audio/audio_defs.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/gralloc_priv.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/copybit.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/copybit_priv.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/display_config.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/mdp_version.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/qdMetaData.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/IQService.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/qcom/display/IQClient.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Audio.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Component.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Core.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Image.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Index.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_IVCommon.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Other.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Types.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_Video.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/qc_omx_common.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/qc_omx_component.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/qc_omx_msg.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_CoreExt.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_IndexExt.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/OMX_VideoExt.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QCMediaDefs.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-core/omxcore/QCMetaData.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/mm-video/DivxDrmDecrypt/DivXDrmDecrypt.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/sdk/softap/include/qsap_api.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/sdk/softap/include/qsap.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/dataservices/rmnetctl/librmnetctl.h
+Header: /android/exodus-6.0/out/target/product/m8/obj/include/time-services/time_genoff.h
+Notice file: external/sepolicy/NOTICE -- /android/exodus-6.0/out/target/product/m8/obj/NOTICE_FILES/src//root/file_contexts.txt
+Export includes file: external/libcxx/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/SHARED_LIBRARIES/libc_intermediates/export_includes
+Export includes file: bionic/libm/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/SHARED_LIBRARIES/libm_intermediates/export_includes
+Export includes file: system/core/init/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libinit_intermediates/export_includes
+Export includes file: system/core/fs_mgr/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes
+Export includes file: system/extras/squashfs_utils/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/export_includes
+Export includes file: system/core/logwrapper/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes
+Export includes file: system/core/libcutils/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes
+Export includes file: system/core/base/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libbase_intermediates/export_includes
+Export includes file: system/core/libutils/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes
+Export includes file: system/core/liblog/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+Export includes file: bionic/libc/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libc_intermediates/export_includes
+Export includes file: external/libselinux/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+Export includes file: system/core/libmincrypt/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libmincrypt_intermediates/export_includes
+Export includes file: system/extras/ext4_utils/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/blkid/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes
+Export includes file: external/e2fsprogs/lib/uuid/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes
+Export includes file: external/libcxx/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes
+Export includes file: bionic/libdl/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libdl_intermediates/export_includes
+Export includes file: system/core/libsparse/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes
+Export includes file: external/zlib/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libz_intermediates/export_includes
+Export includes file: external/libcxxabi/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes
+make: *** No rule to make target `/android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libinit_msm_intermediates/export_includes', needed by `/android/exodus-6.0/out/target/product/m8/obj/EXECUTABLES/init_intermediates/import_includes'.  Stop.
+make: *** Waiting for unfinished jobs....
+Export includes file: external/compiler-rt/Android.mk -- /android/exodus-6.0/out/target/product/m8/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+make: Leaving directory `/android/exodus-6.0'
+
+[0;31m#### make failed to build some targets (24 seconds) ####[0m
+
+
+real	0m23.892s
+user	0m17.516s
+sys	0m3.772s
+build/envsetup.sh: line 571: notify-send: command not found
+Build failed
+/android/exodus-6.0/out/target/product/m8 removed
